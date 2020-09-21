@@ -25,7 +25,7 @@ def getBanner(ip,port):
         socket.setdefaulttimeout(2)
         soc = socket.socket()
         soc.connect((ip, port))
-        banner = soc.recv(1024)
+        banner = soc.recv(1024).strip('/n')
         return banner 
     except:
         return "Got Nothing"
@@ -34,11 +34,11 @@ def PScanner(host,port,option):
     if option == 1:
         banner = getBanner(host, port)
         if banner:
-            print(colored("[+]" + host + '/' + str(port) + ":" + banner.strip('\n'),"blue"))
+            print(colored("[+]" + host + '/' + str(port) + ":" + banner.strip('/n'),"blue"))
     if option == 2:
         for port in range(1,num):
             banner = getBanner(host, port)
-            print(colored("[+] " + host + '/' + str(port) + ": " + banner.strip('\n'),"blue"))
+            print(colored("[+] " + host + '/' + str(port) + ": " + banner.strip('/n'),"blue"))
 
 if option == 1:
     PScanner(host,port,option)
