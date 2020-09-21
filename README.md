@@ -14,7 +14,8 @@
 
 - [CLI Tools](#)
   * [Port Scanner](https://github.com/saadhaxxan/Python-For-Ethical-Hacking/tree/master/PortScanner)
-
+  * [Password Cracking](https://github.com/saadhaxxan/Python-For-Ethical-Hacking/tree/master/PasswordCracking)
+  * [DNS Spoofer](https://github.com/saadhaxxan/Python-For-Ethical-Hacking/tree/master/DNS-Spoofer)
 
 
 
