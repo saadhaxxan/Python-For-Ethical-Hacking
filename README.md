@@ -1,5 +1,5 @@
 <div align="center">
-<h1>Python-For-Ethical-Hacking</h1>
+<h1>Python For Ethical Hacking</h1>
   
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 [![PyPI pyversions](https://img.shields.io/pypi/pyversions/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
